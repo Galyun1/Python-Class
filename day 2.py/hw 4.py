@@ -1,7 +1,7 @@
 fruit = input("what color is this?")
 fruit = "apple", "strawberry", "cherry", "mango", "pineapple", "banana"
 red = "apple", "strawberry", "cherry"
-if red:
+if red or fruit == "yellow":
     print("This is red color")
 
 else:
